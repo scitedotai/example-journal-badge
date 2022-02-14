@@ -4,7 +4,7 @@ const round = num => Math.round(num * 1000 + Number.EPSILON) / 100
 
 const Metric = ({ label, metric }) => (
   <div className={styles.metricLayout}>
-    <span className={styles.metric}>{round(metric)}</span>
+    <span className={styles.metric}>{metric ? round(metric) : 'N/A'}</span>
     <span className={styles.label}>{label}</span>
   </div>
 )
