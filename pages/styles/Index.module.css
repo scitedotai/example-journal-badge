@@ -2,7 +2,14 @@
   border: 1px solid #d1d1d6;;
   border-radius: 4px;
   padding: 1rem;
+  margin-top: 1rem;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.tally {
+  border-left: 1px solid #d1d1d6;
+  padding: 0 2rem;
+  height: 100%;
 }

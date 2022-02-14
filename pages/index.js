@@ -21,7 +21,9 @@ export const getServerSideProps = async () => {
 const Badge = ({ tally, sciteIndices }) => (
   <div className={styles.badge}>
     <SciteIndex sciteIndex={sciteIndices[0]} />
-    <Tally tally={tally} />
+    <div className={styles.tally}>
+      <Tally tally={tally} />
+    </div>
   </div>
 )
 
