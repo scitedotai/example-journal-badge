@@ -32,6 +32,7 @@ const Index = ({ tally, sciteIndices }) => {
         <title>Scite Example Badge</title>
       </Head>
 
+      <h2>Example badge for ISSN: {EXAMPLE_ISSN}</h2>
       <Badge tally={tally} sciteIndices={sciteIndices} />
     </div>
   )
