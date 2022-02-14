@@ -1,0 +1,27 @@
+.sciteIndex {
+  text-align: center;
+}
+
+.headerLayout {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.metricLayout {
+  display: flex;
+  flex-direction: column;
+}
+
+.metric {
+  font-size: 2rem;
+}
+
+.topMetric {
+  margin-top: 1rem;
+}
+
+.bottomMetrics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+}

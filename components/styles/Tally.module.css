@@ -1,0 +1,32 @@
+.tally {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 1px solid #d1d1d6;
+  padding-left: 0.5rem;
+}
+
+.headerLayout {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.label {
+  margin-left: 1rem;
+}
+
+.count {
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.total {
+  display: flex;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #0e1d1a;
+}
